@@ -57,7 +57,6 @@ def runner
   card_total = initial_round
   hit = hit?(initial_round)
   if hit = card_total
-    card_total = hit?(initial_round)
   else  
     card_total = hit?(initial_round)
     display_card_total(card_total)
